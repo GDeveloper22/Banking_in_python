@@ -5,7 +5,7 @@ init(autoreset=True)
 ws = openpyxl.load_workbook("./Account Database.xlsx")
 wsa = ws.active
 
-global f_name, m_name, l_name, dob, age, gender, email, pn, emp_status, ini_dep, acc_type, acc_pin, acc_status, acc_no, T_C, acc_row, ac_row
+global f_name, m_name, l_name, dob, age, gender, email, pn, emp_status, ini_dep, acc_type, acc_pin, acc_status, acc_no, T_C, acc_row, ac_row 
 
 
 def close_Acc():
