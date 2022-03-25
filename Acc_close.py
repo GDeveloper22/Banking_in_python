@@ -26,7 +26,7 @@ def close_Acc():
                                 if acc_pin_.isnumeric():
                                     if len(acc_pin_) == 4:
                                         if acc_pin_ == str(wsa.cell(ac_row, 2).value):
-                                            wsa.delete_rows(ac_row)
+                                            wsa.delete_rows(ac_row,1)
                                             print(Style.DIM + Fore.RED + "Account closure in progress...")
                                             ws.save("Account Database.xlsx")
                                             return 0
